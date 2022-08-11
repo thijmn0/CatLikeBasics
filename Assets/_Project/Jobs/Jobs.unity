@@ -805,7 +805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   depth: 6
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-  leafMesh: {fileID: 0}
+  leafMesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 6015a12ff8fe29da0bd714fa04c79f40, type: 2}
   gradientA:
     serializedVersion: 2
@@ -867,3 +867,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   leafColorA: {r: 0, g: 0.94509804, b: 0, a: 1}
   leafColorB: {r: 0, g: 0.64705884, b: 0, a: 1}
+  maxSagAngleA: 15
+  maxSagAngleB: 25
+  spinVelocityA: 20
+  spinVelocityB: 25
